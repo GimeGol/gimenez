@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Preencha o Formulário</h1>
+    <form  id="dados" method="post">
+
+      <p>
+        Este financiamento é para uma pessoa:
+      </p>
+
+      <p>
+        <label for="radio1">Física</label>
+        <input type="radio" name="radio1" value="1" checked>
+
+        <label for="radio2">Jurídica</label>
+        <input type="radio" name="radio1" value="2">
+      </p>
+
+      <p>
+        Qual tipo de financiamento você deseja?
+      </p>
+
+      <p>
+        <select id="financiamento" required>
+          <option>Selecione</option>
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+
+        </select>
+      </p>
+
+      <p>
+        Em qual dessas categorias o imóvel se enquadra?
+      </p>
+
+      <p>
+        <select class="" id="categorias" required>
+          <option>Selecione</option>
+          <option>A/option>
+          <option>B</option>
+          <option>C</option>
+
+        </select>
+      </p>
+
+      <p>
+        Qual cidade está localizada o imóvel?
+      </p>
+
+      <p>
+        <label id="uf">UF:</label>
+        <select id="uf1" name="" required>
+          <option>Selecione</option>
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+          </select>
+
+          <label id="cidade">Cidade:</label>
+          <select id="cidade1" name="" required>
+            <option>Selecione</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+          </select>
+
+
+      </p>
+
+      <p>
+        <input type="checkbox" name="possui" id="possui">
+        <label>Marque se possui imóvel na cidade selecionada</label>
+      </p>
+
+      <p>
+        Qual o valor aproximado do imóvel?
+      </p>
+
+      <p>
+        <label>R$:</label>
+        <input type="text" name="valor" id="valor" required>
+      </p>
+
+      <p>
+        <input type="submit" name="avançar" value="Avançar">
+      </p>
+
+    </form>
+
+
+  </body>
+</html>
